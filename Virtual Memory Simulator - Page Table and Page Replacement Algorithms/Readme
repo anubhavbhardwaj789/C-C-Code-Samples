@@ -1,0 +1,6 @@
+The simulator requires a command-line argument to specify a replacement
+policy to use.
+o ./vm 0 : random
+o ./vm 1 : FIFO
+o ./vm 2 : LRU
+o ./vm 3 : Clock Algorithm
